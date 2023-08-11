@@ -14,10 +14,10 @@ spring:
         dialect: org.hibernate.dialect.H2Dialect
   flyway:
     enabled: false
-#  sql:
-#    init:
-#      data-locations: classpath:/db/*
-#      data-locations: classpath:/user-service/src/test/resources/db/*
+  sql:
+    init:
+      data-locations: classpath:/db/*
+      # data-locations: classpath:/user-service/src/test/resources/db/*
 server:
   error:
     include-message: always
