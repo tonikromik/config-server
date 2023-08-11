@@ -17,7 +17,7 @@ spring:
   sql:
     init:
 #      data-locations: classpath:/db/*
-      data-locations: classpath:/user-service/src/test/resources/db/*
+      data-locations: user-service/src/test/resources/db/*
 server:
   error:
     include-message: always
