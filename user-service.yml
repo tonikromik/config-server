@@ -6,7 +6,7 @@ logging:
 server:
   error:
     include-message: always
-  port: 8093
+  port: 0
 
 eureka:
   client:
