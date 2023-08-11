@@ -39,12 +39,7 @@ spring:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${spring.application.name}?createDatabaseIfNotExist=true
     user: ${MYSQL_USER:root}
     password: ${MYSQL_PASSWORD:root}
-  cloud:
-    config:
-      enabled: false
-  servlet:
-    multipart:
-      enabled: true
+
 
 #application:
 #  security:
