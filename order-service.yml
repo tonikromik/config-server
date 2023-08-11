@@ -19,8 +19,6 @@ eureka:
 spring:
   application:
     name: order-service
-#  profiles:
-#    active: test
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${spring.application.name}
     username: ${MYSQL_USER:root}
